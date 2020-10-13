@@ -22,7 +22,7 @@ Comment shortcut command + /
      text-decoration: underline;
  }
 
- /* Seklecting child elements */
+ /* Selecting child elements */
  nav ul {
      list-style: none;
  }
@@ -44,6 +44,7 @@ Comment shortcut command + /
  #tow{
      background:orange;
  }
+
 
  /* We can us multiple classes to one element */
  .large-text{

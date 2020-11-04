@@ -3,7 +3,7 @@ header{
     background: #aad4cf url("../images/lone-starfish-wide.jpg") no-repeat ;
 
 }
-
+/*Heading of the site*/
 h1{
 	text-align: center;
 	padding-top: 3em;
@@ -13,31 +13,42 @@ h1{
 }
 
 /* Navigation */
+
 nav ul {
 	list-style: none;
 	background-color: #CCE6E3;
 }
 nav ul li{
 	display: inline-block;
-	width: 30%;
+	width: 33%;
 	padding: 1em;
 	box-sizing: border-box;
 }
+
+.story{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
 nav ul a{
 	display: block;
 	color: black;
 	text-decoration: none;
 	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
 }
 
+/* Main content of site*/
 
 body{
 	background: #aad4cf;
 }
 
 main{
-	padding-top: 1em; 
+	padding-top: .5em; 
 	margin-right: 1.5em;
+	margin-left: .5em;
 }
 
 .contain{
@@ -50,8 +61,11 @@ img{
 	width: 200px;
 	float: left;
 	padding-right: 1rem;
+	padding-bottom: .5em;
 	
 }
+/* Forms*/
+
 .forms{
 	border: 1px solid black;
 	padding-bottom: 1em;
@@ -61,11 +75,30 @@ fieldset{
 	border-style: none;
 }
 
-footer{
-	text-align: right;
-	padding: 1em 1em;
-}
 .name input,
 .email input{
 	width: 100%;
+	margin-top: 10px;
+}
+.message input{
+	margin-top: 10px;
+	width: 100%;
+	height: 5em;
+}
+
+.visit input{
+padding-left: 25em;
+}
+
+.button{
+	background-color: #CCE6E3;
+	border: 1px solid black;
+	padding: 10px;
+	margin-left: 15px;
+}
+
+/*footer of site*/
+footer{
+	text-align: right;
+	padding: 1em 1em;
 }

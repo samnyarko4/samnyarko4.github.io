@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <Div class="contain">
      <!-- Head of the site -->
      <header>
         <h1>Lone Starfish</h1>
@@ -20,14 +21,14 @@
                     <a href="blank">Story</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </Nav>
     </header>
     <!-- Main Content on the site -->
     <Main>
-        <article>
+        <article class="main">
             <h2>Life Of a Starfish</h2>
             <img src="images/lone-starfish.jpg" alt="Lone Starfish">
             <p>
@@ -53,14 +54,14 @@
             </ul>
         </section>
         <!-- adding Contact forms -->
-        <section>
+        <section id="contact">
             <h4>Contact To Learn More</h4>
-         <form>
-             <fieldset>
+         <form class="forms">
+             <fieldset class="name">
                  <label for="Name">Your Name</label>
                  <input type="text" name="Text">
              </fieldset>
-             <fieldset>
+             <fieldset class="email">
                  <label for="Name">Your Email</label>
                  <input type="text" name="Text">
              </fieldset>
@@ -79,9 +80,11 @@
              </fieldset>
              <input type="submit" value="Submit">
          </form>
+         </section>
     </Main>
     <!-- Footer of the site -->
     <Footer>
         &copy; Lone Starfish
     </Footer>
+    </Div>
 </body>

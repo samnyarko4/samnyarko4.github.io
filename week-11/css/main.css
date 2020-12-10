@@ -74,7 +74,8 @@ body{
 
 img{
     width: 100%;
-}a,
+}
+a,
 a:link,
 a:visited{
     color:inherit;

@@ -106,6 +106,23 @@ p{
     padding: 1em;
 }
 
+.black-button{
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #222;
+}
+.orange-btn{
+    background-color: #c78c06;
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid;
+}
+
 /* -----------Site Header--------------- */
 .logo {
 
@@ -140,3 +157,121 @@ width: 90%;
 .im im-magnifier{
 color: #c78c06;
 }
+
+/* ----------Welcome section---------- */
+.welcome{
+    
+}
+
+/* ----------About Us Section------------ */
+.about-us{
+    background-color: #ffe6ac;
+}
+
+/* ----------------------------
+      Our Services Section
+----------------------------- */
+/* Digital Transformation */
+.digital-transformation{
+background-color: #ffe6ac;
+margin: 1em 0 0 0;
+}
+
+/* Marketing */
+.marketing{
+    background-color: #ffe6ac;
+    margin: 1em 0 0 0;;
+}
+
+/* Video production */
+.video-production{
+    background-color: #ffe6ac;
+    margin: 1em 0 0 0;
+}
+
+/* Web Development */
+.web-development{
+    background-color: #ffe6ac;
+    margin: 1em 0 0 0;
+}
+
+/* Print */
+.print{
+    background-color: #ffe6ac;
+    margin: 1em 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- Hours of operation chart--------- */
+.hours-operation{
+    border: 1px solid #222;
+}
+
+.days,
+.hours,
+.mon-fri,
+.sat-sun,
+.hours-weekday,
+.hours-weekend{
+	box-sizing: border-box;
+	padding: 20px;
+	text-transform: uppercase;
+	border: 1px solid #999;
+	border-radius: .5em;
+}
+.days,
+.hours{
+  background-color: #FFCC66;
+}
+.hours-operation{
+    display:grid;
+     grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr)
+  }
+  .hours{
+    order:-1
+  }
+  .days{
+    order:-1
+  }
+  .sat-sun{
+    order:2
+  }
+  .hours-weekday{
+    order:1
+  }
+  .hours-weekend{
+    order:2
+  }
+  .days{
+    align-text: center;
+  }
+  /* ----------Site footer---------- */
+  .site-footer{
+      background-color: #222;
+      color: #c78c06;
+  }

@@ -85,6 +85,7 @@ h1{
 }
 h2{
     font-size: 3.375rem;
+    padding-left:10px;
 }
 h3{
     font-size: 2.25rem;
@@ -98,6 +99,7 @@ h5{
 
 p{
     margin: 1em 0;
+    padding-left: 1em;
 }
 
 .container{
@@ -113,6 +115,7 @@ p{
     display: inline-block;
     padding: 20px;
     border: 1px solid #222;
+    margin: 1em;
 }
 .orange-btn{
     background-color: #c78c06;
@@ -167,6 +170,9 @@ color: #c78c06;
 .about-us{
     background-color: #ffe6ac;
 }
+.about-img{
+    width: 100%;
+}
 
 /* ----------------------------
       Our Services Section
@@ -176,11 +182,19 @@ color: #c78c06;
 background-color: #ffe6ac;
 margin: 1em 0 0 0;
 }
+.digital{
+    width: 100%;
+    height: auto;
+}
+
 
 /* Marketing */
 .marketing{
     background-color: #ffe6ac;
     margin: 1em 0 0 0;;
+}
+.marketing-img{
+    width: 100%;
 }
 
 /* Video production */
@@ -188,11 +202,17 @@ margin: 1em 0 0 0;
     background-color: #ffe6ac;
     margin: 1em 0 0 0;
 }
+.video{
+    width: 100%;
+}
 
 /* Web Development */
 .web-development{
     background-color: #ffe6ac;
     margin: 1em 0 0 0;
+}
+.web{
+    width: 100%;
 }
 
 /* Print */
@@ -200,29 +220,45 @@ margin: 1em 0 0 0;
     background-color: #ffe6ac;
     margin: 1em 0 0 0;
 }
+.print-img{
+    width: 100%;
+}
 
+/* --------Our Vision---------- */
 
+/* ----------Our Team--------- */
+.john-doe{
+    background-color: #ffe6ac;
+}
+.doe-img{
+    width: 100%;
+}
 
+.bob-rite{
+    background-color: #ffe6ac;
+}
+.rite-img{
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ----------Contact Us--------- */
+.name input{
+    border: 1px solid #222;
+    width: 100%;
+}
+.email input{
+    border: 1px solid #222;
+    width: 100%;
+}
+.message input{
+    border: 1px solid #222;
+    width: 100%;
+}
+.contact-button{
+    background-color: #222;
+    color: #c78c06;
+    width: 5em;
+}
 
 
 

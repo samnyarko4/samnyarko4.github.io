@@ -88,7 +88,8 @@ h2{
     padding-left:10px;
 }
 h3{
-    font-size: 2.25rem;
+    font-size: 2.25rem; 
+    padding-left: 10px;
 }
 h4{
     font-size: 1.5rem;
@@ -124,6 +125,13 @@ p{
     display: inline-block;
     padding: 20px;
     border: 1px solid;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #c78c06;
 }
 
 /* -----------Site Header--------------- */
@@ -163,7 +171,12 @@ color: #c78c06;
 
 /* ----------Welcome section---------- */
 .welcome{
-    
+    background-image: url("../images/main-banner.jpg");
+}
+.welcome h1,
+.welcome p{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 /* ----------About Us Section------------ */
@@ -225,10 +238,17 @@ margin: 1em 0 0 0;
 }
 
 /* --------Our Vision---------- */
+.our-vision{
+   background-image: url(../images/vision.jpg);
+   color: white;
+}
 
 /* ----------Our Team--------- */
 .john-doe{
     background-color: #ffe6ac;
+}
+.john-doe p{
+    padding-bottom: 1em;
 }
 .doe-img{
     width: 100%;
@@ -236,6 +256,9 @@ margin: 1em 0 0 0;
 
 .bob-rite{
     background-color: #ffe6ac;
+}
+.bob-rite p{
+    padding-bottom: 1em;
 }
 .rite-img{
     width: 100%;
@@ -257,10 +280,8 @@ margin: 1em 0 0 0;
 .contact-button{
     background-color: #222;
     color: #c78c06;
-    width: 5em;
+    width: 5em 0 0 0;
 }
-
-
 
 /*------------- Hours of operation chart--------- */
 .hours-operation{
@@ -304,10 +325,76 @@ margin: 1em 0 0 0;
     order:2
   }
   .days{
-    align-text: center;
+    align-content: center;
   }
   /* ----------Site footer---------- */
   .site-footer{
       background-color: #222;
       color: #c78c06;
   }
+
+  /* --------------------
+       Desktop Styless
+    ---------------------*/
+    @media screen and (min-width:760px){
+       /* Navigation */
+       .nav-list{
+        display:flex;
+        width: 90%;
+    }
+
+    .nav-list li{
+        flex:1;
+        border: none;
+        
+    }
+
+    .nav-list li:last-child{
+        border: none;
+    }
+    /* Search bar */
+    .search input{
+        width: 10%;
+        }
+        
+        /* Welcom */
+        .welcome{
+            height: 50em;
+        }
+        .welcome h1,
+        .welcome p{
+            text-align: center;
+            margin-top: 3em;
+        }
+         
+        /* About ud */
+        
+        .about-img{
+            float: left;
+            width: 40%;
+            margin: 0 1em 1em 0;
+        }
+    
+        /* our servicea */
+        .services-top-grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr ;
+            gap: 1em;
+        }
+        .services-bottom-grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1em;
+        }
+
+        /* Our Team */
+        .our-team{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr, 1fr;
+            grid-template-areas: 
+            "doe-img doe-info"
+            "rite-img rite-info";
+        }
+        
+    }
